@@ -10,7 +10,7 @@ This UiPath library is designed to automate the process of opening Google, searc
 
 ## Prerequisites
 - UiPath Studio (latest version)
-- A compatible web browser (Chrome/Firefox)
+- A compatible web browser (Chrome)
 - UiPath Web Automation packages installed
 - Stable internet connection
 
@@ -18,28 +18,28 @@ This UiPath library is designed to automate the process of opening Google, searc
 
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/yourusername/uipath-google-search-automation.git
+   git clone https://github.com/mnsy/Google.Search.1.0.1.nupkg
 2. Open UiPath Studio and load the library into your project.
 
 ## Usage
 
-1. Import the Library: After cloning or downloading, import the library into your UiPath project.
+1. Import the Library: Import the library into your UiPath project after cloning or downloading.
 2. Set the Search Text: In your UiPath workflow, pass the text you want to search on Google as an argument to the library.
 3. Run the Automation: Execute the workflow, and it will:
-- Open Google in the browser.
-- Search for the text you provided.
-- Click on the first link in the search results.
+- Open Google in the browser (Launch Activity).
+- Search for the text you provided (Search Activity).
+- Click on the first link in the search results (Click First Search Result Activity).
 
 ## Example Workflow
 
-1. Drag and drop the GoogleSearchAutomation activity into your workflow.
-2. Provide the search text as an argument/input to the activity (e.g., "UiPath automation tutorial").
-3. Run the workflow, and the automation will complete the task.
+1. Drag and drop the Launch activity into your workflow which will run Chrome browser.
+2. Provide the search text as an argument/input to the Search activity (e.g., "UiPath automation tutorial").
+3. Use the Click First Search Result Activity which indicates the first element on the search result and click on it.
+4. Run the workflow, and the automation will complete the task.
 
 ## Customization
 
-- Browser Type: The library is set to use Chrome by default. You can modify the browser type in the workflow by editing the Open Browser activity settings.
-- Search Result Click: Currently, the first search result is clicked. If you need to click on other results or customize the behavior, modify the selectors in the Click activity.
+- All activities takes main 3 input arguments Retry Number, Retry Interval, and Timeout (milliseconds).
 
 ## Contributions
 
