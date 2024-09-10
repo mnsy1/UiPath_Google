@@ -17,8 +17,7 @@ This UiPath library is designed to automate the process of opening Google, searc
 ## Installation
 
 1. Download or clone this repository:
-   ```bash
-   git clone https://github.com/mnsy/Google.Search.1.0.1.nupkg
+   [https://github.com/mnsy/Google.Search.1.0.1.nupkg](https://github.com/mnsy1/UiPath_Google/blob/main/Google.Search.1.0.1.nupkg)
 2. Open UiPath Studio and load the library into your project.
 
 ## Usage
