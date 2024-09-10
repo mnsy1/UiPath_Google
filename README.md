@@ -17,7 +17,7 @@ This UiPath library is designed to automate the process of opening Google, searc
 ## Installation
 
 1. Download or clone this repository:
-   [https://github.com/mnsy/Google.Search.1.0.1.nupkg](https://github.com/mnsy1/UiPath_Google/blob/main/Google.Search.1.0.1.nupkg)
+   [Google Search Library](https://github.com/mnsy1/UiPath_Google/blob/main/Google.Search.1.0.1.nupkg)
 2. Open UiPath Studio and load the library into your project.
 
 ## Usage
@@ -31,9 +31,15 @@ This UiPath library is designed to automate the process of opening Google, searc
 
 ## Example Workflow
 
-1. Drag and drop the Launch activity into your workflow which will run Chrome browser.
+![Launch Chrome Browser and Google Website](https://github.com/mnsy1/UiPath_Google/blob/main/img/Launch_Chrome.png)
+1. Drag and drop the Launch activity into your workflow which will run Chrome browser and Visit Google Website.
+
+![Type Into Search Bar](https://github.com/mnsy1/UiPath_Google/blob/main/img/Google_Search.png)
 2. Provide the search text as an argument/input to the Search activity (e.g., "UiPath automation tutorial").
+
+![Click First Search Item](https://github.com/mnsy1/UiPath_Google/blob/main/img/Click_First_Result.png)
 3. Use the Click First Search Result Activity which indicates the first element on the search result and click on it.
+   
 4. Run the workflow, and the automation will complete the task.
 
 ## Customization
